@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&family=Josefin+Sans&family=Kalam&family=Kalnia:wght@500&family=Kanit:wght@300&family=Playfair+Display:wght@600&family=Preahvihear&family=Zilla+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Crimson+Text:ital,wght@1,400;1,600&family=Josefin+Sans&family=Kalam&family=Kalnia:wght@500&family=Kanit:wght@300&family=Playfair+Display:wght@600&family=Preahvihear&family=Rubik+Doodle+Shadow&family=Salsa&family=Zilla+Slab:wght@700&display=swap');
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        /*give border for understanding purpose during styling css*/
+        font-family: 'Zilla Slab', serif;
+        position: absolute;
+        width: 170px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        left: 100px;
+        top: 15px;
+    }
+
+    .mid {
+        width: 600px;
+        display: block;
+        margin: auto;
+        font-size: 19px;
+    }
+
+    .right {
+        /* border: 2px solid red; */
+        /*give border for understanding purpose during styling css*/
+        color: white;
+        width: 300px;
+        top: 15px;
+        position: absolute;
+        display: inline-block;
+        right: 5px;
+    }
+
+
+    #navbar {
+        background-color: rgb(40, 39, 39);
+        height: 70px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav li {
+        list-style: none;
+        display: inline-block;
+        margin: 17px 11px;
+        padding: 7px 7px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    nav li a {
+        color: white;
+    }
+
+    nav li a:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        margin: 4px 3px 4px 4px;
+        padding: 2px 2px;
+    }
+
+    .button {
+        background-color:red;
+        /*give border for understanding purpose during styling css*/
+        color: white;
+        margin: 8px 0px 0px 30px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+        font-family: 'Zilla Slab', serif;
+
+    }
+
+    .button:hover {
+        background-color: white;
+    color: black;
+        /* border: 2px solid white; */
+    }
+
+    #navbar::before {
+        background: url("https://static.vecteezy.com/system/resources/previews/008/325/520/non_2x/white-abstract-background-design-geometric-wallpaper-poster-landing-page-vector.jpg") no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        /* opacity: 0.4;*/
+        /*Give opacity if will be need*/
+    }
+
+    h3 {
+        /* border: 2px solid green; */
+        /*give border for understanding purpose during styling css*/
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        width: 650px;
+        margin: 170px 60px;
+        text-align: center;
+        font-family: 'Salsa', cursive;
+    }
+
+    h1 {
+        color: white;
+        position: absolute;
+        top: 200px;
+        margin: 0px 140px 0px 0px;
+        right: 90px;
+    }
+
+    .img1 img {
+        position: absolute;
+        width: 500px;
+        right: 20px;
+        top: 90px;
+    }
+
+    .landing {
+        /* border: 2px solid green; */
+        /*give border for understanding purpose during styling css*/
+        font-size: 19px;
+        margin: -150px 0px 15px 30px;
+        width: 688px;
+        text-align: center;
+    }
+
+    .name {
+        width: 700px;
+       
+    }
+
+    input {
+        margin: 2px 4px;
+        padding: 4px 2px;
+        width: 250px;
+    }
+
+    .button1 {
+        background-color: red;
+        
+        color: white;
+        margin: 0px 0px 0px 30px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+        font-family: 'Zilla Slab', serif;
+        width: 100px;
+    }
+
+    .button1:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .img2 img {
+        width: 500px;
+        margin: 80px 0px -140px 80px;
+    }
+
+    .fa-brands {
+        margin: 20px 0px 0px 10px;
+    }
+
+    #logos {
+        margin: 0px 0px 0px 80px;
+    }
+
+    .logo1 img {
+        position: absolute;
+        width: 110px;
+        filter: invert(100%);
+    }
